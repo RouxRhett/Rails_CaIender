@@ -1,0 +1,7 @@
+<br>
+<%= form_with model: Test.new do |f| %>
+  <%= f.radio_button :status, true %>
+  <%= f.label :status_true %>
+  <%= f.radio_button :status, false %>
+  <%= f.label :status_false %>
+<% end %>
